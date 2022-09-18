@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkcyan;
+    color: white;
+    /* Set your font family here */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+    overflow: hidden;
+
+    animation: L-R 1.5s linear infinite alternate-reverse;
+}
+
+@keyframes L-R {
+    from {
+        transform: scale(1);
+        letter-spacing: 1px;
+    }
+    to {
+        transform: scale(1.3);
+        letter-spacing: 3px;
+    }
+}
+
+.banner {
+    width: 100%;
+    height: 450px;
+    background-image: url(images/banner_2.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.banner h1 {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 125px;
+}
+
+.top-btn {
+    width: 150px;
+    margin: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    background-color:rgba(0, 255, 255, 0.35);
+    font-size: 18px;
+    padding: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+    transition: all 500ms;
+}
+
+.top-btn:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.title {
+    width: 70%;
+    height: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    border-bottom: 5px solid white;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.week_fact {
+    text-align: center;
+}
+
+.week_fact h2 {
+    width: 50%;
+}
+
+.weekcard {
+    width: 250px;
+    height: 300px;
+    margin: 5px auto;
+    text-align: center;
+    border: 2px solid white;
+    overflow: hidden;
+
+    display: inline-block;
+}
+
+.weekcard img {
+    width: 70%;
+    padding-top: 20px;
+}
+
+.weekcard h4 {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.weekcard p {
+    margin: 0px auto;
+    text-align: center;
+}
+
+.master-science {
+    text-align: center;
+}
+
+.infocards {
+    width: 80%;
+    height: 450px;
+    margin: 10px auto;
+    border: 2px solid white;
+}
+
+.infocards img {
+    width: 200px;
+    height: 250px;
+}
+
+.infocards h4, p {
+    text-align: left;
+    padding: 10px;
+}
+
+.infocards h4 {
+    color: brown;
+}
+
+.blue {
+    color: darkblue;
+}
+
+.feedback {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.feedback h2 {
+    width: 40%;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+label {
+    color: white;
+    text-align: left;
+}
+
+label, input {
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+input {
+    color: white;
+    border: 2px solid white;
+}
+
+textarea {
+    width: 100%;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+.send-btn {
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    background: none;
+    font-size: 18px;
+    padding: 10px;
+    letter-spacing: 2px;
+    text-align: center;
+
+    transition: 250ms all;
+    overflow: none;
+}
+
+.send-btn:hover {
+    transform: scale(1.2);
+}
+
+footer p {
+    width: 100%;
+    margin: 15px auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}

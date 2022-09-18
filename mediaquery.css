@@ -1,0 +1,62 @@
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: lightslategray;
+    }
+    .week_fact h2 {
+        width: 40%;
+    }    
+    .weekcard {
+        width: 250px;
+        height: 300px;
+        margin: 5px auto;
+        text-align: center;
+        border: 2px solid white;
+        overflow: hidden;
+    
+        display: inline-block;
+    }
+    .weekcard img {
+        padding-top: 15px;
+    }
+    .weekcard h4 {
+        width: 100%;
+        margin: 10px auto;
+    }
+    .weekcard p {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }   
+    .master-science h2 {
+        width: 60%;
+    } 
+    .infocards {
+        width: 90%;
+        height: 250px;
+        margin: 10px auto;
+        border: 2px solid white;
+    }
+    .infocards img {
+        width: 40%;
+        height: 246px;
+        float: left;
+    }
+    .infocards h4, p {
+        width: 60%;
+        float: right;
+        text-align: left;
+        padding: 10px;
+    }
+    .feedback h2 {
+        width: 30%;
+    }
+    .git {
+        width: 55%;
+        float: left;
+    }
+    .feedback p {
+        width: 45%;
+        float: right;
+    }
+    
+}
